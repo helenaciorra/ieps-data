@@ -1,0 +1,398 @@
+[
+  {
+    "nome_variavel": "pct_pop0a4",
+    "descricao": "Percentual da população entre 0 e 4 anos. Este indicador mensura a participação relativa de crianças com zero a quatro anos de idade na população residente.",
+    "fonte": "TabNet/Datasus.",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador se baseia em estimativas populacionais e está sujeito a maior erro dado o tempo decorrido desde o último Censo e desafios na estimação, em especial em municípios de pequeno porte."
+  },
+  {
+    "nome_variavel": "pct_pop65m",
+    "descricao": "Percentual da população com 65 e mais anos de idade. O indicador aponta a participação relativa de idosos na população residente e ajuda a acompanhar o ritmo de envelhecimento da população.",
+    "fonte": "TabNet/Datasus",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador se baseia em estimativas populacionais e está sujeito a maior erro dado o tempo decorrido desde o último Censo e desafios na estimação, em especial em municípios de pequeno porte."
+  },
+  {
+    "nome_variavel": "pct_pop75m",
+    "descricao": "Percentual da população com 75 e mais anos de idade. O indicador aponta a participação relativa de idosos na população residente e ajuda a acompanhar o ritmo de envelhecimento da população.",
+    "fonte": "TabNet/Datasus",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador se baseia em estimativas populacionais e está sujeito a maior erro dado o tempo decorrido desde o último Censo e desafios na estimação, em especial em municípios de pequeno porte."
+  },
+  {
+    "nome_variavel": "pct_pop5a14",
+    "descricao": "Percentual da população entre 5 e 14 anos. Este indicador apresenta o percentual da população residente que possui entre 5 e 14 anos, englobando portanto parte considerável da infância até a entrada no contingente de população em idade de trabalhar (15-64).",
+    "fonte": "TabNet/Datasus",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador se baseia em estimativas populacionais e está sujeito a maior erro dado o tempo decorrido desde o último Censo e desafios na estimação, em especial em municípios de pequeno porte."
+  },
+  {
+    "nome_variavel": "pct_pop15a64",
+    "descricao": "Percentual da população em idade ativa (entre 15 e 64 anos). Este indicador apresenta o percentual da população residente que se encontra em idade ativa, sendo esta faixa etária definida como 15 - 64 anos conforme classificação da PNAD /IBGE.",
+    "fonte": "TabNet/Datasus",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador se baseia em estimativas populacionais e está sujeito a maior erro dado o tempo decorrido desde o último Censo e desafios na estimação, em especial em municípios de pequeno porte."
+  },
+  {
+    "nome_variavel": "tx_popmf",
+    "descricao": "Número de homens para cada grupo de 100 mulheres na população residente. Este indicador expressa a relação quantitativa entre os sexos. Uma razão igual a 100 indica que existe um número igual de homens e mulheres.",
+    "fonte": "TabNet/Datasus",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador se baseia em estimativas populacionais e está sujeito a maior erro dado o tempo decorrido desde o último Censo e desafios na estimação, em especial em municípios de pequeno porte."
+  },
+  {
+    "nome_variavel": "pct_desp_recp_saude_mun",
+    "descricao": "Participação (%) da receita própria dos municípios aplicada em ações e serviços públicos de saúde conforme a Emenda Constitucional  nº 29/2000. Este indicador representa o percentual de recursos próprios, definidos como impostos arrecadados diretamente pelo município e os transferidos pelas outras esferas de governo, aplicados em saúde, conforme previsto na Emenda Constitucional nº 29/2000.  Ele fornece uma medida do cumprimento da EC 29/2000 por parte dos entes federativos e permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "desp_tot_saude_pc_mun",
+    "descricao": "Despesa total com saúde, sob responsabilidade do município, por habitante. Este indicador representa a despesa total com Saúde, inclusive aquela financiada por outras esferas de governo, por habitante.  Resulta do gasto em saúde, por habitante, advindo de todas as fontes, quer sejam impostos, transferências do SUS (União, Estados e outros municípios), operações de créditos e outras. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": "Cuidado na interpretação! A despesa está aqui expressa em valores nominais, não ajustados para a inflação. Os indicadores deflacionados , são mais recomendados para comparações ao longo do tempo."
+  },
+  {
+    "nome_variavel": "desp_recp_saude_pc_mun",
+    "descricao": "Despesa com ações e serviços públicos de saúde (ASPS) utilizando recursos próprios do município por habitante. Este indicador representa o valor per capita das despesas em ASPS com recursos próprios, definidos como impostos arrecadados diretamente pelo município e os transferidos pelas outras esferas de governo. Quanto maior o valor, maior o dispêndio público com saúde por habitante. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": "Cuidado na interpretação! A despesa está aqui expressa em valores nominais, não ajustados para a inflação. Os indicadores deflacionados  são mais recomendados para comparações ao longo do tempo."
+  },
+  {
+    "nome_variavel": "pct_desp_recp_saude_uf",
+    "descricao": "Participação (%) da receita própria dos estados aplicada em ações e serviços públicos de saúde conforme a Emenda Constitucional  nº 29/2000. Este indicador representa o percentual de recursos próprios, definidos como impostos arrecadados diretamente pelo município e os transferidos pelas outras esferas de governo, aplicados em saúde, conforme previsto na Emenda Constitucional nº 29/2000.  Ele fornece uma medida do cumprimento da EC 29/2000 por parte dos entes federativos e permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "desp_tot_saude_pc_uf",
+    "descricao": "Despesa total com saúde, sob responsabilidade do estado, por habitante. Este indicador representa a despesa total com Saúde, inclusive aquela financiada por outras esferas de governo, por habitante. Resulta do gasto em saúde, por habitante, advindo de todas as fontes, quer sejam impostos, transferências do SUS (União, Estados e outros municípios), operações de créditos e outras. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": "Cuidado na interpretação! A despesa está aqui expressa em valores nominais, não ajustados para a inflação. Os indicadores deflacionados são mais recomendados para comparações ao longo do tempo."
+  },
+  {
+    "nome_variavel": "desp_recp_saude_pc_uf",
+    "descricao": "Despesa com ações e serviços públicos de saúde (ASPS) utilizando recursos próprios do estado por habitante. Este indicador representa o valor per capita das despesas em ASPS com recursos próprios, definidos como impostos arrecadados diretamente e os transferidos pelas outras esferas de governo. Quanto maior o valor, maior o dispêndio público com saúde por habitante. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": "Cuidado na interpretação! A despesa está aqui expressa em valores nominais, não ajustados para a inflação. Os indicadores deflacionados são mais recomendados para comparações ao longo do tempo."
+  },
+  {
+    "nome_variavel": "desp_tot_saude_pc_mun_def",
+    "descricao": "Despesa total com saúde, sob responsabilidade do município por habitante, em valores reais com base em 2021. Este indicador representa a despesa total com Saúde, inclusive aquela financiada por outras esferas de governo, por habitante.  Resulta do gasto em saúde, por habitante, advindo de todas as fontes, quer sejam impostos, transferências do SUS (União, Estados e outros municípios), operações de créditos e outras. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "desp_recp_saude_pc_mun_def",
+    "descricao": "Despesa com ações e serviços públicos de saúde (ASPS) utilizando recursos próprios do município por habitante, em valores reais com base em 2021. Este indicador representa o valor per capita das despesas em ASPS com recursos próprios, definidos como impostos arrecadados diretamente pelo município e os transferidos pelas outras esferas de governo. Quanto maior o valor, maior o dispêndio público com saúde por habitante. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "desp_tot_saude_pc_uf_def",
+    "descricao": "Despesa total com saúde, sob responsabilidade do estado por habitante, em valores reais com base em 2021. Este indicador representa a despesa total com Saúde, inclusive aquela financiada por outras esferas de governo, por habitante. Resulta do gasto em saúde, por habitante, advindo de todas as fontes, quer sejam impostos, transferências do SUS (União, Estados e outros municípios), operações de créditos e outras. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "desp_recp_saude_pc_uf_def",
+    "descricao": "Despesa com ações e serviços públicos de saúde (ASPS) utilizando recursos próprios do estado por habitante, em valores reais com base em 2021. Este indicador representa o valor per capita das despesas em ASPS com recursos próprios, definidos como impostos arrecadados diretamente e os transferidos pelas outras esferas de governo. Quanto maior o valor, maior o dispêndio público com saúde por habitante. Ele permite analisar variações geográficas e temporais no gasto com ações e serviços públicos de saúde por habitante.",
+    "fonte": "TabNet do Sistema de Informações sobre Orçamento Público em Saúde (SIOPS)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "pib_cte_pc",
+    "descricao": "Produto interno bruto per capita do município a preços constantes de 2020. O PIB é a soma de todos os bens e serviços finais produzidos por um país, estado ou cidade, geralmente em um ano. O PIB per capita municipal trata-se do PIB de um município dividido por sua  população.",
+    "fonte": "Sistema IBGE de Recuperação Automática (SIDRA) e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "pct_prenatal_adeq",
+    "descricao": "Percentual de nascidos vivos cujas mães tiveram seis ou mais consultas, sendo a primeira com início anterior ao terceiro mês de gravidez.Este indicador mensura a cobertura do atendimento pré-natal de gestantes por localidade geográfica e período. Logo, quanto maior o valor do indicador, maior a adequação do acesso ao pré-natal pela população.",
+    "fonte": "Sistema de Informações sobre Nascidos Vivos (SINASC)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "pct_prenatal_zero",
+    "descricao": "Percentual de nascidos vivos cujas mães não tiveram nenhuma consulta pré-natal. Estima a cobertura do atendimento pré-natal de gestantes por localidade geográfica e período. Quanto menor a proporção de nascidos vivos com zero consultas pré-natal, maior o acesso  do acompanhamento do pré-natal para a população.",
+    "fonte": "Sistema de Informações sobre Nascidos Vivos (SINASC)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "pct_prenatal_1a6",
+    "descricao": "Percentual de nascidos vivos cujas mães tiveram uma a seis consultas pré-natal. Estima a cobertura do atendimento pré-natal de gestantes por localidade geográfica e período. Quanto menor a porcentagem de nascidos vivos com uma a seis consultas pré-natal (com relação à porcentagem de nascidos vivos com sete ou mais consultas), maior o acesso ao serviço de exame pré-natal para a população.",
+    "fonte": "Sistema de Informações sobre Nascidos Vivos (SINASC)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "pct_prenatal_7m",
+    "descricao": "Percentual de nascidos vivos cujas mães tiveram sete ou mais consultas pré-natal. Estima a cobertura do atendimento pré-natal de gestantes por localidade geográfica e período. Quanto maior a proporção de nascidos vivos com sete ou mais consultas pré-natal, maior o acesso ao serviço de exame pré-natal para a população.",
+    "fonte": "Sistema de Informações sobre Nascidos Vivos (SINASC)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_mort_aj_oms",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência, ajustado por idade usando a população de referência da Organização Mundial da Saúde (OMS). O indicador expressa a intensidade com a qual a mortalidade atua sobre determinada população, retirando a influência da composição etária local. A taxa ajustada permite comparações  temporais e geográficas mais precisas.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM), TabNet DATASUS e OMS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_mort_csap_aj_oms",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência e Condições Sensíveis à Atenção Primária (CSAP), ajustada por idade usando a população de referência da Organização Mundial da Saúde (OMS). O indicador expressa a intensidade com a qual a mortalidade por CSAP atua sobre determinada população, retirando a influência da composição etária local. A taxa ajustada permite comparações  temporais e geográficas mais precisas.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM), TabNet DATASUS e OMS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_mort_evit_aj_oms",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência e causas evitáveis por ações de serviços de saúde, ajustada por idade usando a população de referência da Organização Mundial da Saúde (OMS). O indicador expressa a intensidade com a qual a mortalidade por causas evitáveis atua sobre determinada população, retirando a influência da composição etária local. A taxa ajustada permite comparações  temporais e geográficas mais precisas.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM), TabNet DATASUS e OMS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_mort_aj_cens",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência, ajustado por idade usando a população de referência do Censo 2010. O indicador expressa a intensidade com a qual a mortalidade atua sobre determinada população, retirando a influência da composição etária local. A taxa ajustada permite comparações  temporais e geográficas mais precisas.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM), TabNet DATASUS e Censo 2010",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_mort_csap_aj_cens",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência e Condições Sensíveis à Atenção Primária (CSAP), ajustada por idade usando a população de referência do Censo 2010. O indicador expressa a intensidade com a qual a mortalidade por CSAP atua sobre determinada população, retirando a influência da composição etária local. A taxa ajustada permite comparações  temporais e geográficas mais precisas.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM), TabNet DATASUS e Censo 2010",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_mort_evit_aj_cens",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência e causas evitáveis por ações efetivas de serviços de saúde, ajustada por idade usando a população de referência do Censo 2010. O indicador expressa a intensidade com a qual a mortalidade por causas evitáveis atua sobre determinada população, retirando a influência da composição etária local. A taxa ajustada permite comparações  temporais e geográficas mais precisas.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM), TabNet DATASUS e Censo 2010",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_mort",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência e óbitos por todas as causas.  O indicador expressa a intensidade com a qual a mortalidade atua sobre uma determinada população. Por se tratar da taxa bruta, não é recomendada para realizar comparações entre populações. Por exemplo, uma taxa elevada pode ser reflexo da estrutura etária da população local, com um maior contingente de idosos.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM) e TabNet DATASUS",
+    "mensagem_alerta": "Cuidado na interpretação! A taxa de mortalidade bruta reflete a composição etária da população local. Taxas ajustadas são mais recomendadas para fins de comparações."
+  },
+  {
+    "nome_variavel": "tx_mort_csap",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência e óbitos por Condições Sensíveis à Atenção Primária (CSAP). O indicador expressa a intensidade com a qual a mortalidade por CSAP atua sobre determinada população. Por se tratar da taxa bruta, não é recomendada para realizar comparações entre populações. Por exemplo, uma taxa elevada pode ser reflexo da estrutura etária da população local, com um maior contingente de idosos.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM) e TabNet DATASUS",
+    "mensagem_alerta": "Cuidado na interpretação! A taxa de mortalidade bruta reflete a composição etária da população local. Taxas ajustadas são mais recomendadas para fins de comparações."
+  },
+  {
+    "nome_variavel": "tx_mort_evit",
+    "descricao": "Taxa de óbitos por 100.000 habitantes, considerando o local de residência e mortes que poderiam ser evitadas por ações de serviços de saúde. O indicador expressa a intensidade  com a qual a mortalidade por causas evitáveis atua sobre determinada população. Por se tratar da taxa bruta, não é recomendada para realizar comparações entre populações. Por exemplo, uma taxa elevada pode ser reflexo da estrutura etária da população local, com um maior contingente de idosos.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM) e TabNet DATASUS",
+    "mensagem_alerta": "Cuidado na interpretação! A taxa de mortalidade bruta reflete a composição etária da população local. Taxas ajustadas são mais recomendadas para fins de comparações."
+  },
+  {
+    "nome_variavel": "pct_mort_maldef",
+    "descricao": "Percentual de óbitos por causas mal definidas dentro do total de óbitos de residentes registrados. O indicador ajuda a estimar o grau de qualidade das informações sobre causa de morte.  Percentuais elevados de causas mal definidas servem como sinal de alerta para falhas, seja na declaração das causas de óbito, na coleta dessas informações, ou nas condições de prestação de serviços de saúde.",
+    "fonte": "Sistema de Informações sobre Mortalidade (SIM) e TabNet DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_hosp",
+    "descricao": "Número de hospitalizações por 100.000 habitantes realizadas no âmbito do Sistema Único de Saúde (SUS), considerando o local de residência do usuário. O indicador reflete o acesso de residentes de um determinado local a hospitalizações no âmbito do SUS.",
+    "fonte": "Sistema de Informações Hospitalares (SIH) e TabNet DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_hosp_csap",
+    "descricao": "Número de hospitalizações por causas sensíveis à atenção primária (CSAP) por 100.000 habitantes realizadas no âmbito do Sistema Único de Saúde (SUS), considerando o local de residência do paciente. O indicador pode ser utilizado como instrumento de avaliação da atenção primária e/ou da utilização da atenção hospitalar no SUS.",
+    "fonte": "Sistema de Informações Hospitalares (SIH) e TabNet DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_bcg",
+    "descricao": "Cobertura vacinal estimada de BCG, considerando a população-alvo. Mede o percentual da população-alvo coberta pela vacina BCG, que protege contra formas graves de tuberculose. O esquema de vacinação no Brasil recomenda a aplicação de dose única logo após o nascimento, ainda na maternidade.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_rota",
+    "descricao": "Cobertura vacinal estimada de Rotavírus Humano, considerando a população alvo. Mede o percentual da população-alvo coberta pela vacina contra o rotavírus. A vacina é uma importante forma de proteção contra as gastroenterites causadas pelo rotavírus e deve ser administrada em duas doses, aos dois e quatro meses de idade, por via oral.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_menin",
+    "descricao": "Cobertura vacinal estimada de Meningococo C, considerando a população alvo. Mede o percentual da população-alvo coberta pela vacina contra a doença meningocócica, infecção aguda que pode provocar meningite (inflamação das membranas que recobrem o cérebro), meningococemia (infecção generalizada) e rapidamente levar a pessoa a óbito. No seu esquema de vacinação, uma dose deve ser aplicada aos três meses de vida; outra, aos cinco meses e a dose de reforço, aos doze meses.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_pneumo",
+    "descricao": "Cobertura vacinal estimada de Pneumocócica, considerando a população alvo. Mede o percentual da população-alvo coberta pela vacina Pneumocócica 10-valente Conjugada (VPC-10), que protege principalmente crianças contra doenças causadas pela bactéria Streptococcus Pneumoniae. O seu esquema de vacinação envolve duas doses aos 2 e 4 meses, e depois um reforço aos 12 meses.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_polio",
+    "descricao": "Cobertura vacinal estimada de Poliomielite, considerando a população alvo. Mede o percentual da população-alvo coberta pela vacina contra a poliomielite, doença infecciosa causada pelo poliovírus cuja proliferação ocorre no intestino, podendo invadir o sistema nervoso central e causar paralisia. A vacinação contra a poliomielite no país é composta por duas vacinas: a injetável, aplicada em três doses aos dois, quatro e seis meses de vida da criança; e a vacina oral aplicada aos 15 meses e aos quatro anos.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_tvd1",
+    "descricao": "Cobertura vacinal estimada da primeira dose de Tríplice Viral, considerando a população alvo. Mede a população-alvo coberta pela vacina Tríplice Viral (TV), que protege contra o sarampo, a caxumba e a rubéola, que são doenças infecciosas virais transmitidas pela via respiratória. A primeira dose da TV deve ser administrada aos 12 meses de idade. Aos 15 meses, a dose única de tetraviral complementa a proteção da tríplice.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_penta",
+    "descricao": "Cobertura vacinal estimada de Pentavalente, considerando a população alvo. Mede o percentual da população-alvo coberta pela vacina pentavalente, que protege contra uma ampla gama de doenças: o tétano, a coqueluche, a difteria, a hepatite B e a meningite causada pela bactéria Haemophilus influenza tipo B. Desde 2012, as crianças devem tomar três doses da vacina: aos dois, aos quatro e aos seis meses de vida.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_hepb",
+    "descricao": "Cobertura vacinal estimada de Hepatite B, considerando a primeira dose aplicada em crianças de até 30 dias. Mede o percentual da população-alvo coberta pela vacina contra a hepatite B, doença infecciosa causada pelo vírus HBV, que atinge o fígado e pode levar ao desenvolvimento de sintomas como febre, enjoos, vômitos e olhos e pele amarelados. A primeira dose da vacina contra a hepatite B deve ser administrada na maternidade, nas primeiras 12 horas de vida do recém-nascido. Doses complementares contra Hepatite B são realizadas no PNI através da cobertura de pentavalente.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_vac_hepa",
+    "descricao": "Cobertura vacinal estimada de Hepatite A, considerando a população alvo. Mede o percentual da população-alvo coberta pela vacina contra a Hepatite A, causada pelo vírus HAV, que pode provocar náuseas e vômito, icterícia, fadiga e febre baixa. Apesar de raras, existem manifestações graves da doença, como a hepatite fulminante. O esquema de vacinação prevê a aplicação de dose única da vacina em crianças de um até dois anos incompletos.",
+    "fonte": "Programa Nacional de Imunizações (PNI), disponibilizadas no TabNet-DATASUS",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "gasto_pbf_pc_def",
+    "descricao": "Valor gasto com Programa Bolsa Família per capita. Expressado em termos constantes, em reais de 2021. Criado em 2003, o PBF é  um programa de transferência direta de renda, direcionado à famílias em situação de pobreza e de extrema pobreza em todo o País. O programa busca garantir a essas famílias o direito à alimentação e o acesso à educação e à saúde, possuindo condicionalidades para recebimento do benefício. O indicador valor per capita pago às famílias em situação de extrema vulnerabilidade social.",
+    "fonte": "Ministério de Desenvolvimento Social (MDs)",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "ideb_5ano",
+    "descricao": "Índice de Desenvolvimento da Atenção Básica referente ao 5° ano do Ensino Fundamental em escolas da Rede Pública. Este indicador de qualidade educacional combina informações de desempenho em exames padronizados (Prova Brasil ou Saeb) obtido pelos estudantes ao final das etapas de ensino (neste caso 5° ano do Ensino Fundamental) – com informações sobre rendimento escolar (aprovação).",
+    "fonte": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep). Dados bienais.",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "ideb_9ano",
+    "descricao": "Índice de Desenvolvimento da Atenção Básica referente ao 9° ano do Ensino Fundamental em escolas da Rede Pública. Este indicador de qualidade educacional combina informações de desempenho em exames padronizados (Prova Brasil ou Saeb) obtido pelos estudantes ao final das etapas de ensino (neste caso 9° ano do Ensino Fundamental) – com informações sobre rendimento escolar (aprovação).",
+    "fonte": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep). Dados bienais.",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_ab",
+    "descricao": "Percentual da população coberta por equipes da Estratégia Saúde da Família e por equipes de Atenção Básica equivalentes. Este indicador mede o acesso aos serviços da Atenção Básica para a população de determinada localidade geográfica. Logo, quanto maior o indicador, maior o potencial de acesso à atenção básica e de oferta de ações e serviços básicos para a população.",
+    "fonte": "e-Gestor AB",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_acs",
+    "descricao": "Percentual da população coberta por Agentes Comunitários de Saúde vinculados a equipes da Estratégia Saúde da Família, Equipes de Atenção Básica parametrizada ou Equipes de Agentes Comunitários de Saúde. Este indicador mede o acesso aos serviços de Agentes Comunitários de Saúde para a população de determinada localidade geográfica. Logo, quanto maior o valor do indicador, maior o potencial de acesso à atenção básica e de oferta de ações e serviços básicos para a população.",
+    "fonte": "e-Gestor AB",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "cob_esf",
+    "descricao": "Percentual da população coberta por equipes da Estratégia Saúde da Família. Este indicador mede o acesso aos serviços da Estratégia Saúde da Família para a população de determinada localidade geográfica. Logo, quanto maior o indicador, maior o potencial de acesso à atenção básica e de oferta de ações e serviços básicos para a população.",
+    "fonte": "e-Gestor AB",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "renda_dom_pc",
+    "descricao": "Média da renda domiciliar per capita, disponível para 2010. Considera-se como renda domiciliar per capita a soma dos rendimentos mensais dos moradores do domicílio, em reais, dividida pelo número de seus moradores. Este indicador permite analisar a situação econômica domiciliar.",
+    "fonte": "Censo (2010)",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "exp_vida",
+    "descricao": "Expectativa de vida ao nascer, disponível para 2010. O indicador se refere ao número médio de anos que se espera que uma pessoa viva a partir de seu nascimento em uma determinada localidade e em determinado ano.",
+    "fonte": "Censo (2010)",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "pct_san_adeq",
+    "descricao": "Percentual de Pessoas com Saneamento Básico considerado adequado, disponível para 2010. O indicador se refere ao percentual de pessoas que possuíam banheiro ou sanitário e esgotamento sanitário, seja através de uma rede geral de esgoto ou pluvial, ou na forma de uma fossa séptica.",
+    "fonte": "Censo (2010)",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "pct_rural",
+    "descricao": "Percentual de residentes em área rural, disponível para 2010. O indicador permite maior compreensão acerca da distribuição espacial da população entre o meio rural e urbano.",
+    "fonte": "Censo (2010)",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "tx_med_ch",
+    "descricao": "Número de médicos padronizados pela carga horária de 40h semanais por 1.000 habitantes. O indicador mensura a disponibilidade de recursos humanos de saúde - médicos, nesse caso - para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de profissionais de saúde (PF), e TabNet/Datasus.",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_med",
+    "descricao": "Número de médicos unicamente identificados por 1.000 habitantes. O indicador mensura a disponibilidade de recursos humanos de saúde - médicos, nesse caso - para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de profissionais de saúde (PF), e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_enf",
+    "descricao": "Número de enfermeiros unicamente identificados por 1.000 habitantes. O indicador mensura a disponibilidade de recursos humanos de saúde - enfermeiros, nesse caso - para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de profissionais de saúde (PF), e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_enf_ch",
+    "descricao": "Número de enfermeiros padronizados pela carga horária de 40h semanais por 1.000 habitantes. O indicador mensura a disponibilidade de recursos humanos de saúde - enfermeiros, nesse caso - para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de profissionais de saúde (PF), e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_leito_sus",
+    "descricao": "Número de leitos do SUS por 100.000 habitantes. O indicador mensura a disponibilidade de leitos hospitalares conveniados ou contratados pelo SUS para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de leitos (LT), e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_leitouti_sus",
+    "descricao": "Número de leitos de Unidades de Terapia Intensiva (UTI) do SUS, por 100.000 habitantes. O indicador mensura a disponibilidade de leitos hospitalares de UTI conveniados ou contratados pelo SUS para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de leitos (LT), e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_leito_nsus",
+    "descricao": "Número de leitos que não estão disponíveis ao SUS, por 100.000 habitantes. O indicador mensura a disponibilidade de leitos hospitalares que não estão disponíveis para o SUS para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de leitos (LT) e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "tx_leitouti_nsus",
+    "descricao": "Número de leitos de Unidades de Terapia Intensiva (UTI) que não estão disponíveis ao SUS, por 100.000 habitantes. O indicador mensura a disponibilidade de leitos hospitalares de UTI que não estão disponíveis para o SUS para a população residente de determinada localidade geográfica.",
+    "fonte": "Cadastro Nacional de Estabelecimentos de Saúde (CNES), base de leitos (LT) e TabNet/Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "idhm",
+    "descricao": "Índice de Desenvolvimento Humano Municipal (IDHM). O IDH é uma medida que avalia o progresso em três dimensões:  renda, educação e saúde.  A nível municipal calcula-se o IDHM, formulado considerando três dimensões: longevidade, educação e renda. O indicador oferece um complemento ao indicador do Produto Interno Bruto (PIB) per capita, na medida em que não está restrito à dimensão econômica do desenvolvimento.",
+    "fonte": "Atlas Brasil",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "idhm_renda",
+    "descricao": "Índice de Desenvolvimento Humano Municipal (IDHM), especificamente a Dimensão Renda. O IDH é uma medida que avalia o progresso em três dimensões:  renda, educação e saúde.  A nível municipal calcula-se o IDHM, formulado considerando as dimensões: longevidade, educação e renda. A Dimensão Renda considera o indicador de renda municipal per capita, definida como a renda média  de cada residente do município.",
+    "fonte": "Atlas Brasil",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "idhm_educ",
+    "descricao": "Índice de Desenvolvimento Humano Municipal (IDHM), especificamente a Dimensão Educação. O IDH é uma medida que avalia o progresso em três dimensões:  renda, educação e saúde.  A nível municipal calcula-se o IDHM, formulado considerando as dimensões: longevidade, educação e renda. A Dimensão Educação do IDHM é uma composição de indicadores de escolaridade da população adulta e de fluxo escolar da população jovem.",
+    "fonte": "Atlas Brasil",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "idhm_long",
+    "descricao": "Índice de Desenvolvimento Humano Municipal (IDHM), especificamente a Dimensão Longevidade. O IDH é uma medida que avalia o progresso em três dimensões:  renda, educação e saúde.  A nível municipal calcula-se o IDHM, formulado considerando as dimensões: longevidade, educação e renda. A Dimensão Longevidade do IDHM se refere à expectativa de vida ao nascer. O indicador se refere ao número médio de anos que se espera que uma pessoa viva a partir de seu nascimento em uma determinada localidade e em determinado ano.",
+    "fonte": "Atlas Brasil",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador disponível para o ano de 2010, repetido para os outros anos."
+  },
+  {
+    "nome_variavel": "cob_priv",
+    "descricao": "Número de beneficiários  de planos de saúde suplementar no último trimestre do ano dividido pela população residente.  Não inclui planos odontológicos, sendo considerados planos ambulatoriais e/ou hospitalares. O indicador mensura o percentual da população coberta por planos e seguros de assistência suplementar à saúde (privados e de servidores públicos).",
+    "fonte": "Agência Nacional de Saúde Suplementar (ANS), TabNet Datasus",
+    "mensagem_alerta": ""
+  },
+  {
+    "nome_variavel": "pct_pop10a49_fem",
+    "descricao": "Percentual de mulheres em idade fértil. Este indicador apresenta o percentual de mulheres que se encontram em idade fértil, definida como 10 a 49 anos segundo o Ministério da Saúde.",
+    "fonte": "TabNet/Datasus",
+    "mensagem_alerta": "Cuidado na interpretação! Indicador se baseia em estimativas populacionais e está sujeito a maior erro dado o tempo decorrido desde o último Censo e desafios na estimação, em especial em municípios de pequeno porte."
+  }
+]

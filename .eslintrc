@@ -1,0 +1,59 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "plugins": ["@typescript-eslint", "react", "prettier"],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "souceTypes": "module"
+    },
+    "rules": {
+      "prettier/prettier": [
+        "warn",
+        {
+          "singleQuote": true,
+          "parser": "flow"
+        }
+      ],
+      "strict": 0,
+      "no-console": "warn",
+      "quotes": [
+        "warn",
+        "single"
+      ],
+      "react/prop-types": "off",
+      "no-unused-vars": "off", // Will be handled by typescript rule
+      "no-unused-expressions": "off", // Will be handled by typescript rule
+      "@typescript-eslint/explict-function-return-type": "off",
+      "no-irregular-whitespace": "warn"
+    },
+    "overrides": [
+      {
+        "files": ["*.js"],
+        "rules": {
+          "@typescript-eslint/no-var-requires": "off"
+        }
+      }
+    ],
+    "globals": {
+      "JSX": true
+    }
+  }
+

@@ -1,0 +1,4 @@
+export { IndiceDesenvolvimentoHumanoMunicipal } from './01_indice_de_desenvolvimento_humano_municipal_2010';
+export { IndiceDesenvolvimentoHumanoMunicipalDimensaoRenda } from './02_indice_de_desenvolvimento_humano_municipal_dimensao_renda_2010';
+export { IndiceDesenvolvimentoHumanoMunicipalDimensaoEducacao } from './03_indice_de_desenvolvimento_humano_municipal_dimensao_educacao_2010';
+export { IndiceDesenvolvimentoHumanoMunicipalDimensaoLongevidade } from './04_indice_de_desenvolvimento_humano_municipal_dimensao_longevidade_2010';
